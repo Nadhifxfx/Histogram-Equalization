@@ -90,5 +90,4 @@ plt.show()
 ```
 
 **Hasil Gambar :**
-
-![alt text](https://github.com/Nadhifxfx/Histogram-Equalization/blob/main/assets/Hasil%20gambar%20Histogram%20Equalization.png?raw=true)
+![Hasil gambar Histogram Equalization](https://github.com/user-attachments/assets/8a5c431d-6e97-427e-b2d3-6734717a096a)
