@@ -19,7 +19,7 @@ For j - 0 To Picture 1.ScaleHeight - 1
   Picture2.PSet (i, j), RGB(yg, ya, ya)
 Next j
 Next |
-Fori-0To 255
+For i = 0 To 255
   MSChart1.Row = i + 1
   MSChart1.Data = hi(i)
   MSChart1.RowLabel = Trim(Str(i))     
