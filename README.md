@@ -36,8 +36,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Memuat gambar dan mengubahnya ke skala abu-abu
-gambar = cv2.imread('path/to/image.jpg', cv2.IMREAD_GRAYSCALE)  # Ganti 'path/to/image.jpg' dengan lokasi gambar Anda
-tinggi, lebar = gambar.shape
+gambar = cv2.imread('path/to/image.jpg', cv2.IMREAD_GRAYSCALE) 
 
 # Inisialisasi histogram untuk intensitas sebelum dan sesudah equalization
 h = np.zeros(256)
@@ -90,5 +89,6 @@ plt.tight_layout()
 plt.show()
 ```
 
-**Output**
+**Hasil Gambar**
+
 ![alt text](https://github.com/Nadhifxfx/Histogram-Equalization/blob/main/assets/Hasil%20gambar%20Histogram%20Equalization.png?raw=true)
