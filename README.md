@@ -89,6 +89,6 @@ plt.tight_layout()
 plt.show()
 ```
 
-**Hasil Gambar**
+**Hasil Gambar :**
 
 ![alt text](https://github.com/Nadhifxfx/Histogram-Equalization/blob/main/assets/Hasil%20gambar%20Histogram%20Equalization.png?raw=true)
