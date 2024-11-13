@@ -89,3 +89,6 @@ plt.title("Histogram Setelah Equalization")
 plt.tight_layout()
 plt.show()
 ```
+
+**Output**
+![alt text](https://github.com/Nadhifxfx/Histogram-Equalization/blob/main/assets/Hasil%20gambar%20Histogram%20Equalization.png?raw=true)
