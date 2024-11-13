@@ -5,7 +5,29 @@ NIM : 23422027
 
 **Soal :**
 - Buat program dari algoritma berikut, untuk Histogram Equalization
-
+```
+'Histogram Egualization
+Foriz0 To Picture1.ScaleWidth - 1
+For j - 0 To Picture 1.ScaleHeight - 1
+  w = Picture 1.Point(i, j)
+  r = w And RGB(255, 0, 0)
+  g = Int((w And RGB(O, 255, 0)) / 256)
+  b = Int(Int((w And RGB(O, 0, 255)) / 256) / 256)
+  xg = int((r + g +b)/ 3)
+  yg 7 Int(256 * c(xg) / 128 / 128)
+  h2(yg) - h2(yg) + 1
+  Picture2.PSet (i, j), RGB(yg, ya, ya)
+Next j
+Next |
+Fori-0To 255
+  MSChart1.Row = i + 1
+  MSChart1.Data = hi(i)
+  MSChart1.RowLabel = Trim(Str(i))     
+  MSChart2.Row-i + 1
+  MSChart2.Data = h2(i)
+  MSChart2.RowLabel = Trim(Str(i))
+Next i 
+```
   # Jawaban
 
 ```python
