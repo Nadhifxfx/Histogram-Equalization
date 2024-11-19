@@ -6,7 +6,7 @@ NIM : 23422027
 **Soal :**
 - Buat program dari algoritma berikut, untuk Histogram Equalization
 ```
-Histogram Egualization
+'Histogram Egualization
 Foriz0 To Picture1.ScaleWidth - 1
 For j - 0 To Picture 1.ScaleHeight - 1
   w = Picture 1.Point(i, j)
